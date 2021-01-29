@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   resources :talks
+  resources :contact, only: [:create]
   # get 'home/index'
   root'home#index'
 
