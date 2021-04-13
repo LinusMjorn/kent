@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   resources :talks
   resources :contact, only: [:create]
   # get 'home/index'
