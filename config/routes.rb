@@ -9,8 +9,6 @@ Rails.application.routes.draw do
 
   get 'home/schedule'
 
-  get 'home/myschedule'
-
   get 'home/contact'
 
   get 'home/poster'

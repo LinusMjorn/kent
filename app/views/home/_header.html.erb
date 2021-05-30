@@ -23,7 +23,6 @@
           <%= link_to 'Poster Session', home_poster_path, class:"navbar-brand"%>
           <%= link_to 'Contact', home_contact_path, class:"navbar-brand"%> 
           <%= link_to 'Schedule', home_schedule_path, class:"navbar-brand"%>
-          <%= link_to 'My Talks', home_myschedule_path, class:"navbar-brand"%>
           <%= link_to 'Sign Out', destroy_user_session_path, method: :delete, class:"navbar-brand"%>
 
  <%# to show when signed out %>
@@ -32,14 +31,8 @@
         <%= link_to 'Contact', home_contact_path, class:"navbar-brand"%>
         <%= link_to 'Sign In', new_user_session_path, class:"navbar-brand"%>
 
-<%end%>
-      
-      
-
-
-    
+<%end%>  
       </ul>
-    
     </div>
   </div>
 </nav>
