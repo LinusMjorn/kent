@@ -1,3 +1,4 @@
+<% if user_signed_in? %>
 <div class="row">
 <div class="card" style="width: 40rem;">
   <img src="https://blogs.kent.ac.uk/animaladvocacy/files/2019/08/gordon-hodson-psychology-brock-university.jpg" class="card-img-top" alt="...">
@@ -157,6 +158,9 @@
   </div>
 </div>
 </div>
+<%else %>
+  <p>Please Sign Up or Sign In to view the content.</p>
+<%end%>
 
 
 

@@ -1,3 +1,4 @@
+<% if user_signed_in? %>
 <h1> Keynote Speakers </h1>
 
 <h3>The Animal Advocacy Conference goes virtual: June 30 – July 2, 2021.</h3>
@@ -33,4 +34,6 @@ How our Relations with Animals Speak to the Essence of Human Nature</h5>
     <a href="#" class="btn btn-primary">Go to talk</a>
   </div>
 </div>
-
+<%else %>
+  <p>Please Sign Up or Sign In to view the content.</p>
+<%end%>

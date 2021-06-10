@@ -1,6 +1,6 @@
 <h1> Contact </h1>
-
 <p> 
+<% if user_signed_in? %>
 The conference is organized by Dr Kristof Dhont, Prof Joachim Stoeber, Victoria Krings and Alina Salmen with the help from members of SHARKLab at the University of Kent.
 </br>
 To contact the conference organizers, please email animaladvocacy@kent.ac.uk
@@ -20,3 +20,6 @@ To contact the conference organizers, please email animaladvocacy@kent.ac.uk
 
  <img src="https://blogs.kent.ac.uk/shark/files/2017/10/Picture1logo-300x123.png" alt="SharkLab"> 
 </p>
+<%else %>
+  <p>Please Sign Up or Sign In to view the content.</p>
+<%end%>
