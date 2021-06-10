@@ -1,6 +1,6 @@
 <h1>Kent uni!</h1>
 <% if user_signed_in? %>
-<p><%= "Hi, #{current_user.email}" %></p>
+<p><%= "Welcome to the conference, #{current_user.email}" %></p>
 <%else %>
   <p>Please Sign Up or Sign In to view the content.</p>
 <%end%>
