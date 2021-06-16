@@ -31,3 +31,29 @@
     
 }
 
+img {
+  max-width:100%;
+  height:auto;
+  max-height:100%;
+}
+
+.click-zoom input[type=checkbox] {
+  display: none
+}
+
+.click-zoom img {
+  margin: 100px;
+  transition: transform 0.25s ease;
+  cursor: zoom-in
+}
+
+.click-zoom input[type=checkbox]:checked~img {
+  transform: scale(2);
+  cursor: zoom-out
+}
+
+
+.sound {
+  text-align: center;
+  }
+
