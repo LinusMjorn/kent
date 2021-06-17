@@ -1,7 +1,28 @@
-<h1>Kent uni!</h1>
+<h1 class="welcome"> Welcome!</h1>
 <% if user_signed_in? %>
-<p><%= "Welcome to the conference, #{current_user.email}" %></p>
+<p><%= "Welcome to the Animal Advocacy Conference, you are signed in as #{current_user.email}" %></p>
+
+<p>
+To join the sessions and get more information about them, please navigate to the <a href = "home/schedule">schedule</a>.
+</p>
+
+<p>
+Please navigate to <a href = "home/poster">posters</a> to view the poster session.
+</p>
+<br>
+
+<p>The Animal Advocacy Conference brings together, for the first time, researchers from different fields in the social and behavioral sciences, and animal activists and advocates from around the world.
+
+Learn about the latest ideas, findings and campaigns in the following domains:
+
+  The psychological, social, and societal factors shaping how we perceive and think about animals, human-animal relations, and animal welfare and rights
+  The impact of advocacy and activism strategies related to animal rights, veganism, meat reduction and reduction of other animal products (e.g., dairy, eggs)
+  The social and behavioral science of animal cruelty, meat consumption (and other animal-product consumption), vegetarianism/veganism, and speciesism
+  The connections and intersections between human-animal relations and human intergroup relations as well as between animal ethics and other social justice domains including environmentalism, feminism, and anti-racism
+
+This conference uniquely bridges the gap between academic researchers and activists/professionals in the field of vegan and animal rights advocacy. We will create a stimulating environment where academics and activists/advocates exchange relevant knowledge, engage in lively debates, share their ideas, and can start collaborations.
+</p>
 <%else %>
-  <p>Please Sign Up or Sign In to view the content.</p>
+  <p> Welcome to the Animal Advocacy Conference. Please sign in using the details emailed to you.</p>
 <%end%>
 

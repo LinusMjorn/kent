@@ -13,6 +13,54 @@
  *= require_tree .
  *= require_self
  */
+
+ .card{
+  display: flex;
+  justify-content: center;
+ }
+
+ .card-title{
+   margin: 0px;
+ }
+
+ .card-text{
+   margin: 0px;
+ }
+ p {
+  font-size: 20px;
+  margin: 120px;
+}
+
+.welcome{
+  margin-left: 120px;
+}
+
+h1{
+  margin-left: 120px;
+}
+
+h2{
+  margin-left: 120px;
+}
+
+h3{
+  margin-left: 120px;
+}
+
+h4{
+  margin-left: 120px;
+
+}
+
+h5{
+  margin-left: 120px;
+}
+
+.sess_btn{
+  margin-left: 120px;
+}
+
+ 
  .card-img-top {
   display: block;
   max-width: 100px;
