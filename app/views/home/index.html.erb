@@ -2,6 +2,16 @@
 <% if user_signed_in? %>
 <p><%= "Welcome to the Animal Advocacy Conference, you are signed in as #{current_user.email}" %></p>
 
+
+
+ <form action="/action_page.php" id="usrform">
+  Name: <input type="text" name="usrname">
+  <input type="submit">
+</form>
+
+<textarea name="comment" form="usrform">Enter text here...</textarea> 
+
+
 <p>
 To join the sessions and get more information about them, please navigate to the <a href = "home/schedule">schedule</a>.
 </p>
