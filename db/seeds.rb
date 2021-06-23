@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+require 'csv'
+CSV.foreach("db/fixtures/users1.csv", :col_sep => ",", :headers => true) do |row|
+User.create(email: row['email'], password: row['password')
+end
