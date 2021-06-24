@@ -58,6 +58,14 @@ h5{
   
 }
 
+.align{
+
+  display: flex;
+  align-items: center;
+  justify-content: center
+  
+}
+
  
  .card-img-top {
   display: block;
@@ -105,3 +113,7 @@ img {
 .sound {
   text-align: center;
   }
+
+.kh1{
+  text-align: center;
+}

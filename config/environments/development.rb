@@ -44,8 +44,8 @@ config.action_mailer.smtp_settings = {
   domain: 'gmail.com',
   authentication: 'plain',
   enable_starttls_auto: true,
-  user_name: 'linuscristina2021@gmail.com',
-  password: 'Loinus2021'
+  user_name: ,
+  password: 
 }
 
   config.action_mailer.perform_caching = false

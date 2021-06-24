@@ -86,8 +86,8 @@ config.action_mailer.default charset: 'utf-8'
 #   domain: 'gmail.com'
 #   authentication: 'plain'
 #   enable_starttls_auto: true
-#   user_name: 'linuscristina2021@gmail.com',
-#   password: 'Loinus2021'
+#   user_name: 
+#   password: '
 # }
 
   # Send deprecation notices to registered listeners.

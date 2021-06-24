@@ -3,15 +3,6 @@
 <p><%= "Welcome to the Animal Advocacy Conference, you are signed in as #{current_user.email}" %></p>
 
 
-
- <form action="/action_page.php" id="usrform">
-  Name: <input type="text" name="usrname">
-  <input type="submit">
-</form>
-
-<textarea name="comment" form="usrform">Enter text here...</textarea> 
-
-
 <p>
 To join the sessions and get more information about them, please navigate to the <a href = "home/schedule">schedule</a>.
 </p>
@@ -48,7 +39,7 @@ Join us for an evening of "Veg-Head Trivia" -- a quiz night on day 2 of the conf
 To join us and be assigned to a team, please click this <a href = "https://lancasteruni.eu.qualtrics.com/jfe/form/SV_79FZUN8MRVz28f4"target="_blank">link</a>  to fill out our registration survey (just your name and email). Hope to see you there!
 </p>
 <%else %>
-  <p> Welcome to the Animal Advocacy Conference. Please sign in using the details emailed to you.</p>
+  <p> Welcome to the Animal Advocacy Conference. Please <a href = "users/sign_in">sign in</a> using the details emailed to you.</p>
 <%end%>
 <br><br><br><br><br>
 
