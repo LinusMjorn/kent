@@ -1,0 +1,4 @@
+﻿Name,Email,Password,Password_confirmation
+Test One ,test1@email.com ,abc123,abc123
+Test Two ,test2@email.com ,abc123,abc123
+Test Three ,test3@email.com ,abc123,abc123

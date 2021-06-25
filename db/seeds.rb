@@ -8,16 +8,11 @@
 
 require 'csv'
 
-
-
-
-
-
-CSV.foreach("db/fixtures/users.csv", :col_sep => ",", :headers => true) do |row|
-  puts row: row.inspect
-  user = User.create!(email: row['Email'], password: row['Password'], password_confirmation: row['Password_conformation'])
-  user.confirm
-        if user.errors.present?
-            raise StandardError, "User has errors: #{user.errors.full_messages}"
-        end
+CSV.foreach("db/fixtures/users1.csv", :col_sep => ",", :headers => true) do |row|
+    puts row: row.inspect
+    user = User.create!(email: row['Email'], password: row['Password'], password_confirmation: row['Password_confirmation'])
+    # user.confirm
+          if user.errors.present?
+              raise StandardError, "User has errors: #{user.errors.full_messages}"
+          end
 end
