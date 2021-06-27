@@ -10,6 +10,7 @@
 
  .card-text{
    margin: 0px;
+   text-align: left;
  }
  p {
   font-size: 20px;
@@ -121,4 +122,12 @@ img {
 
 .keyinfo{
   text-align: center;
+}
+
+.force_left{
+  text-align: left;
+}
+
+.p_force_left{
+  text-align: left;
 }
