@@ -1,3 +1,4 @@
+<% if user_signed_in? %>
 <div class=sess_btn>
 <a href="https://zoom.us/j/91291563677" target="_blank" class="btn btn-primary">Join Session</a>
 </div>
@@ -125,3 +126,7 @@ interventions within the Criminal Justice System and RSPCA.
 <div class=sess_btn>
 <a href="https://zoom.us/j/91291563677" target="_blank" class="btn btn-primary">Join Session</a>
 </div>
+
+<%else %>
+  <p>Please sign in to view the content.</p>
+<%end%>

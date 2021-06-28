@@ -1,3 +1,4 @@
+<% if user_signed_in? %>
 <h3>
 Effective Animal Advocacy: The Reducetarian vs Abolitionist Approach to Animal Liberation
 </h3>
@@ -32,3 +33,6 @@ Nella Giatrakou (The Animal Rights Show)
 <br>
 <br>
 <br>
+<%else %>
+  <p>Please sign in to view the content.</p>
+<%end%>

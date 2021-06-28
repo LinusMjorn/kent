@@ -1,3 +1,4 @@
+<% if user_signed_in? %>
 <div class="quiz">
 <center><img src="https://us.123rf.com/450wm/christitze/christitze1702/christitze170235056/72859604-quiz-fluorescent-neon-tube-sign-on-brickwork-front-view-3d-rendered-royalty-free-stock-picture-can-b.jpg?ver=6" alt="Logo" width="flex" height="flex" /> </center>
 </div>
@@ -16,3 +17,6 @@ Join us for an evening of "Veg-Head Trivia" -- a quiz night on day 2 of the conf
 To join us and be assigned to a team, please click this <a href = "https://lancasteruni.eu.qualtrics.com/jfe/form/SV_79FZUN8MRVz28f4"target="_blank">link</a>  to fill out our registration survey (just your name and email). Hope to see you there!
 </p>
 <br><br><br><br><br><br><br><br>
+<%else %>
+  <p>Please sign in to view the content.</p>
+<%end%>

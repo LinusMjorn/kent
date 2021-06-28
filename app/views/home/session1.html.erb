@@ -1,3 +1,4 @@
+<% if user_signed_in? %>
 <div class=sess_btn>
 <a href="https://zoom.us/j/99897209481" target="_blank" class="btn btn-primary">Join Session</a>
 </div>
@@ -140,3 +141,7 @@ barrier to animal advocacy and justice.
 <div class=sess_btn>
 <a href="https://zoom.us/j/99897209481" target="_blank" class="btn btn-primary">Join Session</a>
 </div>
+
+<%else %>
+  <p>Please sign in to view the content.</p>
+<%end%>

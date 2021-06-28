@@ -1,3 +1,4 @@
+<% if user_signed_in? %>
 <div class = "keyinfo">
 <h3>Wednesday, June 30</h3>
 <h3> 15:30-16:30 </h3
@@ -40,3 +41,6 @@ their implications, both for other animals and for fellow humans.
 <br>
 <br>
 <br>
+<%else %>
+  <p>Please sign in to view the content.</p>
+<%end%>

@@ -1,3 +1,4 @@
+<% if user_signed_in? %>
 <div class = "keyinfo">
 <h3>Thursday, July 1</h3>
 <h3> 15:00-16:00 </h3>
@@ -43,3 +44,6 @@ and that behavior change may often precede attitudinal change. If we can make pe
 <br>
 <br>
 <br>
+<%else %>
+  <p>Please sign in to view the content.</p>
+<%end%>

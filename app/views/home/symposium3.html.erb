@@ -1,3 +1,4 @@
+<% if user_signed_in? %>
 <div class=sess_btn>
 <a href="https://zoom.us/j/95157437510" target="_blank" class="btn btn-primary">Join Session</a>
 </div>
@@ -90,7 +91,7 @@ that moves beyond traditional conflict-related outcomes.
 <br>
 
 <h5>Presentation 3: The impact of reading “Eating Animals” on dietary
-habits: A large-scale longitudinal intervention study
+habits: A large-scale intervention study
 </h5>
 <p>
 Authors:
@@ -98,7 +99,23 @@ Alina Salmen, Kristof Dhont, Gordon Hodson, and Daniel Codd <br>
 Speaker: Alina Salmen (University of Kent) </p>
 <h5>Abstract</h5>
 <p>
-TBA
+A primary aim of many animal advocacy groups is educating the public about the treatment of
+ farm animals and the consequences of an omnivorous diet, assuming that exposing these facts
+  will motivate people to reduce their meat consumption. With this aim in mind, a range of 
+  non-fiction books have been published on this topic. Yet, evidence is currently lacking 
+  for the effectiveness of raising awareness for the problems associated with animal
+   agriculture through books, and for the impact on such interventions on actual
+    consumption behaviour (rather than just intentions and attitudes). We conducted a
+     randomised-controlled trial investigating change in attitudes towards animals, 
+     meat, and veg*ans as well as meat consumption, measured with an experience 
+     sampling smartphone application in a group of participants reading Jonathan Safran 
+     Foer’s “Eating Animals” relative to a group reading a control book (N = 235 UK residents). 
+     While the experimental and control group did not differ in their meat consumption after
+      the intervention, we did find a significant reduction in meat commitment in the experimental, 
+      but not the control group. There was also a significant increase in moral concern 
+      for farm animals and in positive attitudes towards veg*ans in the experimental 
+      but not the control group. These findings are equally strong or stronger for 
+      participants high in Social Dominance Orientation. Implications for animal advocacy and future research are discussed.  
 </p>
 
 <br>
@@ -133,3 +150,7 @@ targets and withdraws concern from socially distant targets.
 <div class=sess_btn>
 <a href="https://zoom.us/j/95157437510" target="_blank" class="btn btn-primary">Join Session</a>
 </div>
+
+<%else %>
+  <p>Please sign in to view the content.</p>
+<%end%>

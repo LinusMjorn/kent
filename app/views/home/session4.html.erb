@@ -1,3 +1,4 @@
+<% if user_signed_in? %>
 <div class=sess_btn>
 <a href="https://zoom.us/j/95588259268" target="_blank" class="btn btn-primary">Join Session</a>
 </div>
@@ -124,3 +125,7 @@ gender, but also by race, disability, class, and sexuality.
 <div class=sess_btn>
 <a href="https://zoom.us/j/95588259268" target="_blank" class="btn btn-primary">Join Session</a>
 </div>
+
+<%else %>
+  <p>Please sign in to view the content.</p>
+<%end%>

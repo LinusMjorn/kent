@@ -1,3 +1,4 @@
+<% if user_signed_in? %>
 <div class = "keyinfo">
 <h3>Friday, July 2</h3>
 <h3> 18:00-19:00 </h3>
@@ -54,3 +55,6 @@ academia and animal advocacy, are explored.
 <br>
 <br>
 <br>
+<%else %>
+  <p>Please sign in to view the content.</p>
+<%end%>
